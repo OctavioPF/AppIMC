@@ -21,4 +21,7 @@
     <color name="peso_sobrepeso">#FF5722</color>
     <color name="obesidad">#FF1100</color>
 
+    <!--    Setting-->
+    <color name="settings_text_title">#000000</color>
 </resources>
+

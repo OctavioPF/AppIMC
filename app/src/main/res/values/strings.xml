@@ -9,8 +9,6 @@
     <string name="close">SALIR</string>
 
 
-
-
     <!--IMC APP-->
     <string name="male">Hombre</string>
     <string name="female">Mujer</string>
@@ -34,4 +32,9 @@
 
     <string name="title_obesidad">Obesidad</string>
     <string name="description_obesidad">Estás MUY por encima de lo óptimo para tu peso y altura.</string>
+
+    <!--configuracion-->
+    <string name="oscuro">Modo Oscuro</string>
+    <string name="descripcion_oscuro">Activa el modo oscuro para un cambio visual</string>
+
 </resources>
