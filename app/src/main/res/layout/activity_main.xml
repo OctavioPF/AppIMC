@@ -3,39 +3,55 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="16dp"
     android:background="@color/background_app"
     android:orientation="vertical"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="32dp"
+
+
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/btnSaludApp"
+
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SaludApp"/>
+        android:scaleType="centerCrop"
+        android:src="@drawable/imc_image" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/welcome"
+        android:textSize="24sp"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:padding="16dp" />
 
     <Button
         android:id="@+id/btnIMCApp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="IMC App"/>
+        android:text="@string/botonimc"/>
 
     <Button
-        android:id="@+id/btnTODO"
+        android:id="@+id/btnSetting"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TODO App"/>
+        android:text="@string/setting"/>
 
     <Button
-        android:id="@+id/btnSuperhero"
+        android:id="@+id/btnAbout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SuperHero App"/>
+        android:text="@string/about"/>
 
     <Button
-        android:id="@+id/btnSettings"
+        android:id="@+id/btnClose"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Settings"/>
+        android:text="@string/close"/>
 
 </LinearLayout>

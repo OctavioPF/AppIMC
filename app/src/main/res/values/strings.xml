@@ -1,5 +1,16 @@
 <resources>
     <string name="app_name">AppIMC</string>
+
+    <!--inicio-->
+    <string name="welcome">BIENVENIDO A APPIMC</string>
+    <string name="botonimc">CALCULAR</string>
+    <string name="setting">AJUSTES</string>
+    <string name="about">ACERCA DE</string>
+    <string name="close">SALIR</string>
+
+
+
+
     <!--IMC APP-->
     <string name="male">Hombre</string>
     <string name="female">Mujer</string>
